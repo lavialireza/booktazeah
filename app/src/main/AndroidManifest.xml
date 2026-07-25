@@ -3,10 +3,8 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
         android:label="کتابخانه من"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.Material3.DayNight.NoActionBar">
+        android:supportsRtl="true">
 
         <activity
             android:name=".MainActivity"
