@@ -17,6 +17,7 @@ data class ListItemData(val id: Long, val title: String, val subtitle: String? =
  * صفحه فهرست عمومی: برای دسته‌بندی‌ها، زمینه‌ها، کتاب‌ها، فصل‌ها و بخش‌ها
  * استفاده می‌شود. فقط عنوان صفحه و لیست آیتم‌ها فرق می‌کند.
  */
+ @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun GenericListScreen(
     screenTitle: String,
